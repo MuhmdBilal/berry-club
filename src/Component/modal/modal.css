@@ -1,0 +1,59 @@
+.myConnectButton{
+    padding: 0px 20px !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    /* line-height: 30px; */
+    background-color: #2eba85 !important;
+    border: 3px solid #2eba85 !important;
+    border-radius: 20px;
+}
+.mainContainor{
+    border: 2px solid red;
+    position: relative;
+}
+.border{
+    /* border: 3px solid rgb(146, 18, 67); */
+}
+.commingSoonDiv{
+    display: flex ;
+    justify-content: center;
+}
+.comingSoonPic{
+
+}
+.comingImg{
+    width: 238px;
+}
+.leftImg{
+    position:absolute;
+}
+.randomTextHead{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px !important;
+    color: #fff;
+    /* top: 295px; */
+}
+.firstBox{
+    padding: 12px;
+    background-color:#051822;
+    border-radius: 5px;
+    box-shadow: 2px 2px #0a2838;
+    border: 1px solid #0a2838 ;
+}
+.firstBoxContainor{
+    height: 22rem;
+}
+.footerDiv{
+    height: 4rem;
+    /* background-image: url("rectanglebtm.PNG"); */
+}
+.topHeaderdiv{
+    height: 3rem;
+    margin-top: -0.70rem;
+
+}

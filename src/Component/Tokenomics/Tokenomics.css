@@ -1,0 +1,281 @@
+.tokenomics-box{
+    background: linear-gradient(90deg, #2EBA85 0%, rgba(46, 186, 133, 0.25) 14.06%, rgba(46, 186, 133, 0) 100%);
+    border-left: 5px solid #179AE4;
+}
+.tokenomics-span{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 100%;
+color: #FFFFFF;
+}
+.tokenomics-span1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+color: #FFFFFF;
+}
+.tokenomics-p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 100%;
+color: #FFFFFF;
+}
+.token-images{
+    width: 400px !important;
+}
+.tokenomic-span21{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 19px !important;
+line-height: 100%;
+color: #FFFFFF;
+}
+.positions1{
+    position: absolute;
+    right: 580px;
+}
+.positions2{
+    position: absolute;
+    right: 760px;
+    bottom: 130px;
+}
+.positions3{
+    position: absolute;
+    right: 808px;
+    bottom: 230px;
+}
+.positions4{
+    position: absolute;
+    right: 760px;
+    bottom: 310px;
+}
+.positions5{
+    position: absolute;
+    top: 365px;
+    right: 705px;
+}
+.tokenomics-span11{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+color: #FFFFFF;
+}
+.tokenomics-boxes1{
+    background: rgba(23, 154, 228, 0.15);
+border-radius: 20px;
+}
+.tokenomics-ul{
+    list-style: none;
+}
+.tokenomics-ol{
+    list-style: none;
+}
+.tokenomics-li{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 100%;
+color: #FFFFFF;
+}
+.tokenomics-li1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 100%;
+    color: #2EBA85;  
+}
+.tokenomics-boxes1{
+    background: rgba(23, 154, 228, 0.15);
+border-radius: 20px
+}
+.tokenomics-h44{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 100%;
+color: #FFFFFF;
+}
+
+.tokenomics-span13{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 100%;
+color: #2EBA85;
+text-align: left;
+}
+.tokenomics-span14{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 100%;
+color: #FFFFFF;
+}
+.tokenomics-span15{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 100%;
+color: #179AE4;
+}
+
+.Tokenomics-Pcs1{
+    width: 220px;
+    height: 220px;
+    border: 2px solid #2EBA85;
+}
+.tokenomics-span333{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 100%;
+color: #2EBA85;
+}
+.tokenomics-span334{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 100%;
+color: #FFFFFF;
+}
+.tokenomics-box21{
+    background: rgba(23, 154, 228, 0.15);
+border-radius: 10px;
+}
+.tokenomics-box32{
+    background: #2E98BA;
+border-radius: 10px 10px 0px 0px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 100%;
+color: #FFFFFF;
+}
+.tokenomics-span10{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+/* line-height: 100%; */
+color: #FFFFFF;
+}
+.tokenomics-arrow-image{
+    width: 25px;
+}
+@media(min-width: 1270px) and (max-width: 1420px){
+    .Tokenomics-Pcs1{
+        width: 200px;
+        height: 200px;
+        border: 2px solid #2EBA85;
+    }
+}
+@media(max-width: 1024px){
+    .Tokenomics-Pcs1{
+        width: 160px;
+        height: 160px;
+        border: 2px solid #2EBA85;
+    }
+}
+@media(max-width: 770px){
+    .token-images{
+        width: 350px !important;
+    }
+}
+@media(max-width: 600px){
+    .tokenomics-arrow-image{
+        display: none;
+    } 
+    .tokenomics-span{
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    color: #FFFFFF;
+    }
+    .tokenomics-span1{
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    color: #FFFFFF;
+    }
+    .tokenomics-li{
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FFFFFF;
+    }
+    .tokenomics-li1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        color: #2EBA85;  
+    }
+}
+@media(max-width: 480px){
+    .Tokenomics-Pcs1{
+        width: auto;
+        height: auto;
+        border: 2px solid #2EBA85;
+    }
+}
+@media(max-width: 540px){
+    .Tokenomics-Pcs1{
+        width: 380px;
+        height: 380px;
+        border: 2px solid #2EBA85;
+    }
+}
+@media(max-width: 390px){
+    .Tokenomics-Pcs1{
+        width: 270px;
+        height: 270px;
+        border: 2px solid #2EBA85;
+    }
+}
+@media(max-width: 375px){
+    .Tokenomics-Pcs1{
+        width: 270px;
+        height: 270px;
+        border: 2px solid #2EBA85;
+    }
+}
+@media(max-width: 360px){
+    .Tokenomics-Pcs1{
+        width: 250px;
+        height: 250px;
+        border: 2px solid #2EBA85;
+    }
+}
+
+@media(max-width: 280px){
+    .Tokenomics-Pcs1{
+        width: 240px;
+        height: 240px;
+        border: 2px solid #2EBA85;
+    }
+}

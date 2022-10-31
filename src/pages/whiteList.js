@@ -1,0 +1,15 @@
+export const whiteListingArray = [
+  { address: "0x68693DBCD293E63d5D75743495a0b7697A054c2b", amount: "2" },
+  { address: "0x9F52f69119a4b4c71950363bd2750F3C4812A805", amount: "4" },
+  { address: "0x7eA8Ebb95bBE8041650D5497359E67CF4F36Fcea", amount: "1" },
+  { address: "0xDB2bd74a53d038522A4BEd42eDAe94270a8a8C6b", amount: "3" },
+  { address: "0xAD4f1d02ad3e819AD86D3eD27dfd13F31A19a09a", amount: "1" },
+  { address: "0x115553Bd3B0c1838652B40C8dE4c041da89c1a6e", amount: "1" },
+  { address: "0x55316BB6201B8FDC1FCFe6ce73922593DaD5d323", amount: "1" },
+  { address: "0x42B150B1b0a205eD06C27D5E0B908aF5ef28Aa58", amount: "1" },
+  { address: "0xA0868E905aE92649dd523b6c289696852e351B65", amount: "2" },
+  { address: "0x86895e5ab6343cDB8dbA69C979B0d39f2132c586", amount: "3" },
+  { address: "0xDCf92EC0AB61320063148ada60d1851f9649c377", amount: "2" },
+  { address: "0x37AFf2e16899D8eF3F2f7c04fd7da970d6B77Be6", amount: "1" },
+  { address: "0x45E5257374EA72dab6cea1A5bBcfB0F080f56f9E", amount: "1" },
+];

@@ -1,0 +1,364 @@
+.airdrop-image {
+  /* padding: 120px 0px 60px 0px; */
+  background-image: url("../../media/Background - sec 1.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat:repeat !important;
+  /* height: 150vh; */
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: 0;
+  /* border: 2px solid red; */
+  border: 2px solid transparent;
+}
+.airdrop-image1 {
+  background-color: rgba(0, 0, 0, 0.75);
+  /* border-radius: 20px; */
+  margin-top: 50px !important;
+  margin-bottom: 60px !important;
+  border: 2px solid transparent;
+  /* border: 5px solid #2EC2E1 */
+}
+.airdrop-image131{
+  /* padding: 120px 0px 60px 0px; */
+  background-image: url("../../media/Background - sec 1.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat:repeat !important;
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* padding: 0;
+  margin: 0; */
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 2px solid transparent;
+}
+.coming-soon {
+  width: 190px;
+}
+
+.airdrop-every {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 194, 225, 0.4) 0%,
+    rgba(46, 194, 225, 0.2) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-radius: 20px;
+}
+
+.airdrop-h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: left;
+  line-height: 100%;
+  color: #ffffff;
+}
+.airdop-p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px !important;
+  line-height: 100%;
+  color: #ffffff;
+}
+.airdrop-h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 100%;
+  color: #2eba85;
+}
+.airdrop-h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 100%;
+  color: #2ec2e1;
+}
+.btn-airdrop-button {
+  background: linear-gradient(180deg, #496673 0%, #fbfcfc 60.42%, #aac8d5 100%);
+  mix-blend-mode: normal;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 100%;
+  color: #000000;
+  padding: 14px 20px;
+}
+.btn-airdrop-button2 {
+  background: linear-gradient(180deg, #3a6368 0%, #45c3af 55.21%, #447a7c 100%);
+  mix-blend-mode: normal;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 100%;
+  color: #ffffff;
+  padding: 14px 20px;
+}
+.airdrop-box {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+.airdrop-parachute {
+  width: 100px;
+}
+.airdrop-p1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px !important;
+  line-height: 100%;
+  color: #ffffff;
+}
+.airdrop-image3 {
+  width: 180px;
+}
+
+.airdropbox1 {
+  background: rgba(65, 166, 153, 0.15);
+  border-radius: 20px;
+}
+.Converted1{
+  width: 200px;
+  height: 200px;
+}
+#airdropmini-box {
+  background: #2eba85;
+  border-radius: 5px 0px 0px 5px;
+  width: 80px !important;
+  height: 30px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFf !important ;
+}
+.airdrop-ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  align-items: center;
+}
+.airdrop-span32{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+color: #FFFFFF !important;
+}
+@media(min-width: 2500px) and (max-Width: 10000px){
+  .airdrop-image {
+    /* padding: 120px 0px 60px 0px; */
+    background-image: url("../../media/Background - sec 1.png");
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 0;
+    border: 2px solid transparent;
+  }
+  .airdrop-image131{
+    /* padding: 120px 0px 60px 0px; */
+    background-image: url("../../media/Background - sec 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130vh;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 2px solid transparent;
+  }
+}
+@media(min-width: 1150px) and (max-width: 1390px){
+  .airdrop-box {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .airdrop-image {
+    /* padding: 120px 0px 60px 0px; */
+    background-image: url("../../media/Background - sec 1.png");
+    background-position: center;
+    background-size: cover;
+    /* height: 150vh; */
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 0;
+    /* border: 2px solid red; */
+    /* border: 2px solid transparent; */
+  }
+}
+@media(min-width: 1700px) and (max-width: 3000px){
+  .airdrop-image {
+    /* padding: 120px 0px 60px 0px; */
+    background-image: url("../../media/Background - sec 1.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 0;
+    border: 2px solid transparent;
+    
+  }
+  .airdrop-image131{
+    /* padding: 120px 0px 60px 0px; */
+    background-image: url("../../media/Background - sec 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    /* background-color: rgba(0, 0, 0, 0.75); */
+    /* border: 2px solid red; */
+  }
+}
+@media(max-width: 1280px){
+  .airdrop-image {
+    /* padding: 120px 0px 60px 0px; */
+    background-image: url("../../media/Background - sec 1.png");
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 0;
+    border: 2px solid transparent;
+  }
+}
+@media(max-width: 1050px){
+  .airdrop-span32{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+color: #FFFFFF !important;
+}
+.airdrop-image {
+  /* padding: 120px 0px 60px 0px; */
+  background-image: url("../../media/Background - sec 1.png");
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: 0;
+  /* border: 2px solid red; */
+  border: 2px solid transparent;
+}
+.airdrop-image131{
+  /* padding: 120px 0px 60px 0px; */
+  background-image: url("../../media/Background - sec 1.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  /* background-color: rgba(0, 0, 0, 0.75); */
+  border: 2px solid transparent;
+}
+}
+@media(max-width: 600px){
+  .airdrop-image {
+    /* padding: 120px 0px 60px 0px; */
+    background-image: url("../../media/Background - sec 1.png");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 0;
+    /* border: 2px solid red; */
+    border: 2px solid transparent;
+  }
+  .airdrop-image131{
+    /* padding: 120px 0px 60px 0px; */
+    background-image: url("../../media/Background - sec 1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+    /* width: 100%; */
+    height: auto;
+    padding: 0;
+    margin: 0;
+    /* background-color: rgba(0, 0, 0, 0.75); */
+    border: 2px solid transparent;
+  }
+}
+@media(max-width: 480px){
+    .airdrop-h3 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        text-align: left;
+        line-height: 100%;
+        color: #ffffff;
+      }
+      .airdop-p {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px !important;
+        line-height: 100%;
+        color: #ffffff;
+      }
+      .image-dispaly{
+        display: none;
+      }
+      .airdrop-h4 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 100%;
+        color: #2eba85;
+      }
+      .airdrop-h5 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        color: #2ec2e1;
+      }
+      .airdrop-span32{
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 100%;
+    color: #FFFFFF !important;
+    }
+}
+@media(max-width: 320px){
+  .airdrop-span32{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 100%;
+color: #FFFFFF !important;
+}
+}

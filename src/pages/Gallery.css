@@ -1,0 +1,302 @@
+
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
+#gallery{
+    padding: 120px 0px 60px 0px;
+    background-image: url('../media/head-bg.png');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #gallery .container{
+  background: rgba(0, 0, 0, 0.75);
+  padding: 60px 0px;
+  border-radius: 10px;
+  }
+
+  #MainGallery{
+    padding: 60px 0px;
+  }
+
+  #MainGallery ul{
+    list-style-type: none !important;
+    padding: 0px 5px;
+
+  }
+
+  #MainGallery .filter-box .top-bar .reload button{
+    background: none;
+    border: none;
+    padding: 0;
+    color: #fff;
+  }
+  .mySearchButton{
+    max-width: 200px;
+    background: rgba(19, 113, 77, 0.2);
+    border: 1px solid #13714D;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 5px 10px; 
+    color: white;
+  }
+
+  #MainGallery .filter-box .all-filters ul li{
+    padding: 0px;
+    font-size: 16px;
+  }
+  #MainGallery .filter-box .all-filters ul li button{
+    background: none;
+    padding: 0px;
+    border: none;
+    color: #fff;
+  }
+  #MainGallery .filter-box .all-filters ul hr{
+    margin: 0.5rem 0;
+    color: #13714D;
+  }
+
+  #MainGallery .main-gallery .head .search-box {
+    max-width: 200px;
+    padding: 6px;
+    background: rgba(19, 113, 77, 0.2);
+    border: 1px solid #13714D;
+    border-radius: 6px;
+    color: white;
+  }
+
+  #MainGallery .main-gallery .gallery-items .image-name{
+    background: #274285;
+    border-radius: 0px 0px 15px 15px;
+  }
+
+  #MainGallery .main-gallery .gallery-items .image-box{
+
+    padding: 10px;
+  }
+  #MainGallery .main-gallery .gallery-items .image-box .imgContainer{
+    /* height: 200px; */
+  }
+  .myNftImageBox{
+    border-radius: 20px;
+    border: 2px solid #0d3f2c;
+    margin-top: 15px;
+    /* margin: 10px; */
+  }
+  #MainGallery .main-gallery .gallery-items .image-box img{
+  
+    border-radius: 20px 20px 0px 0px;
+  }
+  .btnStakePage {
+    background: linear-gradient(90deg, #565866 1.7%, #5E606E 100%);
+    border-radius: 100px;
+    font-style: normal;
+    padding: 4px 12px;
+    font-size: 15px;
+    line-height: 17px;
+    color: black;
+}
+.btnStakePage:hover {
+  /* color: #ffffff; */
+}
+
+  #myNFT button{
+    background: #FFFFFF;
+    padding: 10px 30px;
+    font-weight: 600;
+    border: 3px solid #2F1254;
+    border-radius: 50px;
+  }
+
+  #tabs{
+    padding-top: 60px;
+  }
+
+  .nav-tabs, .nav-tabs .nav-link{
+    border-bottom: none;
+  }
+
+  .nav-tabs .nav-item{
+    padding: 0px 20px;
+    font-weight: 600;
+  }
+
+  .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    border: none !important;
+
+  }
+
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px
+  }
+
+  .nav-tabs .nav-link.active{
+    background: #2EBA85 !important;
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    /* margin-top: 200px; */
+  }
+  .pagination .pages {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .pagination .page {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .pagination .page:hover {
+    background-color: #087f5b;
+    color: #fff;
+  }
+
+  .pagination  .active {
+    background-color: #087f5b;
+    color: #fff;
+  }
+
+ 
+  .btn:hover {
+    background-color: #087f5b;
+  }
+  .pagination .btn--icon {
+    height: 24px;
+    width: 24px;
+    stroke: #087f5b;
+  }
+  .pagination .btn--icon:hover {
+    stroke: #fff;
+  }
+@media(max-width: 480px){
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+    /* margin-top: 200px; */
+  }
+  .pagination .pages {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+  }
+  .pagination .page {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+  }
+  .pagination .page:hover {
+    background-color: #087f5b;
+    color: #fff;
+  }
+
+  .pagination  .active {
+    background-color: #087f5b;
+    color: #fff;
+  }
+}
+  @media(max-width: 320px){
+    #MainGallery .main-gallery .head .search-box input{
+      max-width: 150px;
+      padding: 6px;
+      background: rgba(19, 113, 77, 0.2);
+      border: 1px solid #13714D;
+      border-radius: 6px;
+    }
+  }
+  .pseudo-search {
+    display: inline;
+    border: 2px solid #ccc;
+    /* border-radius: 100px; */
+    padding: 10px 15px;
+    color: white;
+    transition: background-color 0.5 ease-in-out;
+  }
+    input {
+      border: 0;
+      background-color: transparent;
+      width: 200px;
+      color: white;
+      
+    }
+  input:focus {
+        
+        outline: none;
+        color: white;
+      }
+
+   i {
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+  
+    select {
+      border: none;
+    }
+
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media(max-width: 280px){
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+    /* margin-top: 200px; */
+  }
+  .pagination .pages {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    
+  }
+  .pagination .page {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+  }
+  .pagination .page:hover {
+    background-color: #087f5b;
+    color: #fff;
+  }
+
+  .pagination  .active {
+    background-color: #087f5b;
+    color: #fff;
+  }
+}

@@ -1,0 +1,225 @@
+.btn-stake{
+    background: linear-gradient(180deg, #496673 0%, #FBFCFC 60.42%, #AAC8D5 100%);
+mix-blend-mode: normal;
+border-radius: 10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 100%;
+color: #000000;
+padding: 10px 20px !important;
+}
+.btn-stake1{
+    background: linear-gradient(180deg, #3A6368 0%, #45C3AF 55.21%, #447A7C 100%);
+mix-blend-mode: normal;
+border-radius: 10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 100%;
+color: #FFFFFF;
+padding: 10px 20px !important;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.stake-h4{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+color: #FFFFFF;
+}
+
+.stake-boxs{
+    background: #000000;
+border: 2px solid #179AE4;
+}
+.stake-image{
+    width: 250px;
+}
+.btn-stake122{
+    background: linear-gradient(180deg, #496673 0%, #FBFCFC 60.42%, #AAC8D5 100%);
+/* mix-blend-mode: normal; */
+border-radius: 10px !important;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 19px !important;
+line-height: 100%;
+color: #000000;
+padding: 8px 1px !important;
+}
+.stake-border{
+    border-left: 1px solid transparent !important;
+}
+.stake-span21{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+@media(max-width: 1024px){
+    .stake-image{
+        width: 210px;
+    }
+}
+@media(max-width: 900px){
+    .stake-image{
+        width: 150px;
+    }
+    .btn-stake{
+        background: linear-gradient(180deg, #496673 0%, #FBFCFC 60.42%, #AAC8D5 100%);
+    mix-blend-mode: normal;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 100%;
+    color: #000000;
+    padding: 10px 20px !important;
+    }
+    .btn-stake1{
+        background: linear-gradient(180deg, #3A6368 0%, #45C3AF 55.21%, #447A7C 100%);
+    mix-blend-mode: normal;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding: 10px 20px !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+.stake-h4{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+color: #FFFFFF;
+}
+.stake-span21{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.btn-stake122{
+    background: linear-gradient(180deg, #496673 0%, #FBFCFC 60.42%, #AAC8D5 100%);
+/* mix-blend-mode: normal; */
+border-radius: 10px !important;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px !important;
+line-height: 100%;
+color: #000000;
+padding: 8px 1px !important;
+}
+}
+@media(max-width: 2048px){
+    .stake-image{
+        width: 200px;
+    }
+}
+@media(max-width: 1536px){
+    .stake-image{
+        width: 150px;
+    } 
+}
+
+@media(min-width: 1400px) and (max-width: 1450px){
+    .stake-image{
+        width: 300px;
+    }
+}
+@media(min-width: 1500px) and (max-width: 2600px){
+    .stake-image{
+        width: 300px;
+    }
+}
+/* @media (max-width: 1536px) {
+    .stake-image{
+        width: 150px !important;
+    }
+} */
+@media(max-width: 1366px){
+    .stake-image{
+        width: 250px;
+    }
+}
+/* @media(max-width: 1100px){
+    .stake-image{
+        width: 150px;
+    }
+} */
+@media(max-width: 1024px){
+    .stake-image{
+        width: 220px ;
+        /* border: 2px solid red */
+    }
+}
+@media(max-width: 600px){
+    /* .stake-border{
+        border-left: 1px solid transparent;
+    }    */
+}
+@media(max-width: 540px){
+    .stake-image{
+        width: 475px;
+        /* border: 2px solid red */
+        
+    }
+}
+@media(max-width: 412px){
+    .stake-image{
+        width: 370px;
+        /* border: 2px solid red */
+        
+    }
+}
+@media(min-width: 400px) and (max-width: 480px){
+    .stake-image{
+        width: 385px;
+        /* border: 2px solid red */
+    }
+}
+@media(max-width: 390px){
+    .stake-image{
+        width: 350px !important;
+        /* border: 2px solid red */
+    }
+}
+@media(max-width: 375px){
+    .stake-image{
+        width: 270px;
+    }
+}
+@media(max-width: 360px){
+    .stake-image{
+        width: 300px;
+    }
+}
+@media(max-width: 340px){
+    .stake-image{
+        width: 260px !important;
+        /* border: 2px solid red */
+    }
+}
+
+@media(max-width: 320px){
+    .stake-image{
+        width: 250px;
+    }
+}

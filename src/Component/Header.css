@@ -1,0 +1,104 @@
+#headss {
+  /* padding: 5px 0px; */
+  background-color: #0b2728;
+}
+#head nav ul li a {
+  font-size: 10px;
+  font-weight: 400;
+  /* padding: 0px 10px; */
+}
+.langButton {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 10px;
+  background: none;
+  border: none;
+  color: #fff;
+}
+.green {
+  color: green;
+}
+#head .social-links a {
+  /* padding: 0px 8px; */
+  /* display: inline-block; */
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* select {
+   
+  } */
+.myselect {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.myselect::after {
+  content: "";
+  position: absolute;
+  right: 6px;
+  top: 20px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid rgb(255, 255, 255);
+  pointer-events: none;
+}
+
+select {
+  background: rgba(19, 113, 77, 0.2) !important;
+  border: 1px solid #13714d !important;
+  color: rgb(255, 255, 255) !important;
+}
+select option {
+  background: rgba(19, 113, 77, 0.2) !important;
+  border: 1px solid #13714d !important;
+  /* border-radius: 6px; */
+  color: white !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler-icon {
+  border-color: rgb(255, 102, 203) !important;
+}
+
+.navbar-light .navbar-toggler {
+  font-size: 14px;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+  box-shadow: none;
+}
+
+.dropdown-item:active,
+.dropdown-item:hover {
+  background-color: #212529;
+}
+.mint-btns1 {
+  padding: 0px 20px !important;
+  color: #fff !important;
+  font-weight: 900 !important;
+  font-size: 17px !important;
+  background-color: #2eba85 !important;
+  border: 3px solid #2eba85 !important;
+  border-radius: 20px;
+}
+/* @media only screen and (max-width: 768px) {
+    .navbar-collapse{
+        position: absolute;
+        background-color: #0B2728;
+        padding: 10px;
+        margin-top: 420px;
+        width: 90%;
+        z-index: 1000000;
+    }
+} */
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.1rem !important;
+  padding-left: 0.5rem;
+}
+@media (min-width: 992px) {
+}
